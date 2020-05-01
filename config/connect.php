@@ -3,10 +3,10 @@
 class Connect extends PDO
 {
     private $type = 'mysql';
-    private $host = '172.246.126.64';
+    private $host = 'localhost';
     private $user = 'root';
-    private $pass = 'Sm4rtS0lut10nS3rv1c3*2018';
-    private $base = 'dev_appdb';
+    private $pass = '12345';
+    private $base = 'flores';
     //Constructor de conexión a la pase de datos
     public function __construct()
     {
