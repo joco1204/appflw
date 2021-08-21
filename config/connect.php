@@ -6,7 +6,7 @@ class Connect extends PDO
     private $host = 'localhost';
     private $user = 'root';
     private $pass = '12345';
-    private $base = 'flores';
+    private $base = 'smart_windows';
     //Constructor de conexión a la pase de datos
     public function __construct()
     {
